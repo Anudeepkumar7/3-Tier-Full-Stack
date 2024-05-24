@@ -17,6 +17,13 @@ spec:
           image: anudeep77/yelpgame:yelp
           ports:
             - containerPort: 3000
+          env:
+            - name: MAPBOX_TOKEN
+              value: "pk.eyJ1IjoiYW51ZGVlcDciLCJhIjoiY2x3aG8yOGxjMGh1ZTJzb2NyNzBqc3EyZCJ9.5lGmdcNu3aYpWLp6EEigIA"
+            - name: DB_URL
+              value: "mongodb+srv://tierapptest7:sXHp6ZCYYN2NBX0f@tierapptest.hinyk59.mongodb.net/?retryWrites=true&w=majority&appName=Tierapptest"
+            - name: SECRET
+              value: anudeepdevops
           livenessProbe:
             httpGet:
               path: /
