@@ -7,7 +7,7 @@ type: Opaque
 data:
   MAPBOX_TOKEN: cGsuZXlKMWlKb2lZVzUxWkdWZWNEY2lMQ0poSWpvaVkyeDNhRzh5T0d4ak1HaDFaVEp6YjJObll6QnliemMyWmNKOS41bEdtZGNOdTNhWXBXTHA2RUVpZ0lB
   DB_URL: bW9uZ29kYitzcnY6Ly90aWVyYXBwdGVzdDc6c1hIcDZaQ1lZTjJOQlgwZkB0aWVyYXBwdGVzdC5oaW55azU5Lm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1UaWVyYXBwdGVzdAo=
-  SECRET: 
+  SECRET: YW51ZGVlcGRldm9wcwo=
 
 ---
 apiVersion: apps/v1
